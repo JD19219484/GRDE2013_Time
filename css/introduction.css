@@ -1,0 +1,41 @@
+body{
+  background: #C6F6FF;
+}
+
+h2{
+  position: relative;
+  text-align: center;
+  top: 13em;
+  font-family: raleway;
+  font-weight: 50;
+  font-size: 20px;
+}
+
+p{
+  position: relative;
+  top: 18em;
+  text-align: center;
+  margin-left: 21em;
+  margin-right: 21em;
+  font-family: raleway;
+  font-weight: 70;
+  font-size: 15px;
+}
+
+#return{
+  position: relative;
+  top: 26.6em;
+  left: 27.5em;
+  height: 1em;
+  width: 1em;
+}
+
+#next{
+  position: relative;
+  top: 25.6em;
+  left: 47.5em;
+  height: 1em;
+  width: 1em;
+}
+
+

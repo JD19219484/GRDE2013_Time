@@ -1,0 +1,729 @@
+body{
+  background: #C6F6FF;
+}
+
+h2{
+  position: relative;
+  top: 2em;
+  text-align: center;
+  font-family: raleway;
+  font-weight: 40;
+  font-size: 50px;
+}
+
+h3{
+  position: relative;
+  text-align: right;
+  top: 2.5em;
+  font-family: raleway;
+  font-weight: 60;
+  font-size: 20px;
+}
+
+
+/* Quiz 1 */ 
+/* This section is for Quiz 1 property */ 
+
+.instruction{
+  position: relative;
+  right: 66em; 
+  top: 1em;
+}
+
+
+.ClockQ1{
+  position: relative;
+  top: 5.5em;
+  left: 36.5em;
+  height: 1em;
+  width: 1em;
+}
+
+
+#a1q1{
+  position: absolute;
+  top: 25em;
+  right: 22em;
+}
+
+#a2q1{
+  position: absolute;
+  right: -6.5em;
+  top: 25em;
+}
+
+#a3q1{
+  position: absolute;
+  top: 25em;
+  left: 15em;
+}
+
+#a4q1{
+  position: absolute;
+  top: 25em;
+  left: 43em;
+}
+
+/* Navigation */ 
+
+#return{
+  position: relative;
+  top: 8.5em;
+  right: 9.5em;
+  height: 1em;
+  width: 1em;
+}
+
+#next{
+  position: relative;
+  top: 7.5em;
+  left: 10.5em;
+  height: 1em;
+  width: 1em;
+}
+
+
+/* Quiz 2 */ 
+/* This section is for Quiz 2 property */ 
+
+.instruction2{
+  position: relative;
+  right: 66.4em; 
+  top: 1em;
+}
+
+
+.ClockQ2{
+  position: relative;
+  top: 5.5em;
+  left: 35em;
+  height: 1em;
+  width: 1em;
+}
+
+#a1q2{
+  position: relative;
+  top: 10em;
+  right: 41.5em;
+  
+}
+
+#a2q2{
+  position: relative;
+  top: 1.7em;
+  right: 11.8em;
+  
+}
+
+#a3q2{
+  position: relative;
+  bottom: 6.8em;
+  left: 18.2em;
+  
+}
+
+#a4q2{
+  position: relative;
+  bottom: 15.1em;
+  left: 48em;
+  
+}
+
+/* Navigation */ 
+
+#return2{
+  position: relative;
+  bottom: 5.5em;
+  right: 8em;
+  width: 1em;
+  height: 1em;
+}
+
+#next2{
+  position: relative;
+  bottom: 6.5em;
+  left: 12.5em;
+  width: 1em;
+  height: 1em;
+}
+
+/* Quiz 3 */ 
+/* This section is for Quiz 3 property */ 
+
+.instruction3{
+  position: relative;
+  right: 59.5em; 
+  top: 1em;
+}
+
+.question{
+  position: relative;
+  text-align: center;
+  font-family: raleway;
+  top: 8em;
+  font-size: 20px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#a1q3{
+  position: relative;
+  top: 23em;
+  left: 39em;
+ 
+}
+
+#a2q3{
+  position: relative;
+  top: 23em;
+  left: 48em;
+}
+
+#return3{
+  position: relative;
+  top: 21em;
+  left: 27em;
+  height: 1em;
+  width: 1em;
+}
+
+#next3{
+  position: relative;
+  top: 20em;
+  left: 48em;
+  height: 1em;
+  width: 1em;
+}
+
+
+
+/* Quiz 4 */ 
+/* This section is for Quiz 4 property */
+
+
+.instruction4{
+  position: relative;
+  right: 66em; 
+  top: 1em;
+}
+
+.ClockQ4{
+  position: relative;
+  top: 5em;
+  left: 36em;
+  height: 1em;
+  width: 1em;
+}
+
+#a1q4{
+  position: relative;
+  top: 30em;
+  left: 8em;
+}
+
+#a2q4{
+  position: relative;
+  top: 30em;
+  left: 16em;
+}
+
+#a3q4{
+  position: relative;
+  top: 30em;
+  left: 25em;
+}
+
+#a4q4{
+  position: relative;
+  top: 30em;
+  left: 33em;
+}
+
+/* Quiz 4 navigation */ 
+
+#return4{
+  position: relative;
+  top: 22.6em;
+  left: 26em;
+  height: 1em;
+  width: 1em;
+}
+
+#next4{
+  position: relative;
+  top: 21.5em;
+  left: 47.5em;
+  height: 1em;
+  width: 1em;
+}
+
+
+/* Quiz 5 */ 
+/* This section is for Quiz 5 property */ 
+
+
+
+.instruction5{
+  position: relative;
+  right: 66em; 
+  top: 1em;
+}
+
+.ClockQ5{
+  position: relative;
+  top: 5em;
+  left: 36em;
+  height: 1em;
+  width: 1em;
+}
+
+#a1q5{
+  position: relative;
+  top: 31em;
+  left: 8em;
+}
+
+#a2q5{
+  position: relative;
+  top: 31em;
+  left: 17em;  
+}
+
+input[disabled] {
+  /* opacity: 0.5; */
+  cursor: inherit;
+  border: 1px #54B77E;
+}
+
+#a3q5{
+  position: relative;
+  top: 31em;
+  left: 23em;
+  
+}
+
+#a4q5{
+  position: relative;
+  top: 31em;
+  left: 31em;
+  
+}
+
+.clock-answer1,
+.clock-answer2,
+.clock-answer3,
+.clock-answer4,
+.clock-answer5 {
+  z-index: 9999
+}
+
+
+
+#return5{
+  position: relative;
+  top: 24em;
+  left: 27em;
+  height: 1em;
+  width: 1em;
+}
+
+#next5{
+  position: relative;
+  top: 23em;
+  left: 46em;
+  height: 1em;
+  width: 1em;
+}
+
+
+
+/* Quiz 6 */ 
+/* This section is for Quiz 6 property */ 
+
+.instruction6{
+  position: relative;
+  right: 57em; 
+  top: 1em;
+}
+
+/* Range of Questions to be answered */
+
+.ClockQ6q1{
+  position: relative;
+  left: 4em;
+  top: 5em;
+  height: 1em;
+  width: 1em;
+}
+
+.ClockQ6q2{
+  position: relative;
+  left: 22em;
+  top: 4em;
+  height: 1em;
+  width: 1em;
+}
+
+.ClockQ6q3{
+  position: relative;
+  left: 39.5em;
+  top: 3em;
+  height: 1em;
+  width: 1em;
+}
+
+.ClockQ6q4{
+  position: relative;
+  left: 57em;
+  top: 2em;
+  height: 1em;
+  width: 1em;
+}
+
+.ClockQ6q5{
+  position: relative;
+  left: 75em;
+  top: 1em;
+  height: 1em;
+  width: 1em;
+}
+
+
+/* Clock labeling */
+
+.Perth{
+  position: relative;
+  font-family: raleway;
+  width: 8em;
+  left: 5.3em;
+  top: 8.7em;
+  height: 1em;
+}
+
+.Tokyo{
+  position: relative;
+  font-family: raleway;
+  left: 23.2em;
+  top: 6.7em;
+  width: 8em;
+  height: 1em;
+}
+
+.Moscow{
+  position: relative;
+  font-family: raleway;
+  left: 39.7em;
+  top: 4.7em;
+  width: 9em;
+  height: 1em;
+}
+
+.Jakarta{
+  position: relative;
+  font-family: raleway;
+  left: 57.5em;
+  top: 2.7em;
+  width: 9em;
+  height: 1em;
+}
+
+.London{
+  position: relative;
+  font-family: raleway;
+  left: 75.6em;
+  width: 10em;
+  top: 0.7em;
+  height: 1em;
+}
+
+
+/* Range of answers */ 
+
+#a1q6{
+  position: relative;
+  top: 9em;
+  left: 4em;
+}
+
+#a2q6{
+  position: relative;
+  top: 9em;
+  left: 12.3em;
+}
+
+#a3q6{
+  position: relative;
+  top: 9em;
+  left: 20.4em;  
+}
+
+#a4q6{
+  position: relative;
+  top: 9em;
+  left: 28.4em;  
+}
+
+#a5q6{
+  position: relative;
+  top: 9em;
+  left: 36.4em;
+}
+
+/* Drop Area */ 
+
+
+#d1q6{
+  position: relative;
+  top: 2em;
+  right: 44.1em;
+}
+
+#d2q6{
+  position: relative;
+  top: 2em;
+  right: 36em;
+}
+
+#d3q6{
+  position: relative;
+  top: 2em;
+  right: 27.8em;
+}
+
+#d4q6{
+  position: relative;
+  top: 2em;
+  right: 19.7em;
+}
+
+#d5q6{
+  position: relative;
+  top: -1.7em;
+  left: 74.9em;
+}
+
+/* Navigation button */
+
+#return6{
+  position: relative;
+  top: 8em;
+  left: 27em;
+  height: 1em;
+  width: 1em;
+}
+
+#next6{
+  position: relative;
+  top: 7em;
+  left: 47em;
+  height: 1em;
+  width: 1em;
+}
+
+
+/* Results */
+
+
+.res1{
+  position: relative;
+  font-family: raleway;
+  left: 25.7em;
+  top: 6em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.mark1{
+  position: relative;
+  font-family: raleway;
+  left: 32.6em;
+  top: 3.9em;
+  font-size: 23px;
+  width: 4em;
+}
+
+
+.res2{
+  position: relative;
+  font-family: raleway;
+  left: 25.7em;
+  top: 5em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.mark2{
+  position: relative;
+  font-family: raleway;
+  left: 32.6em;
+  top: 2.9em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.res3{
+  position: relative;
+  font-family: raleway;
+  left: 25.7em;
+  top: 4em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.mark3{
+  position: relative;
+  font-family: raleway;
+  left: 32.6em;
+  top: 1.9em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.res4{
+  position: relative;
+  font-family: raleway;
+  left: 25.7em;
+  top: 3em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.mark4{
+  position: relative;
+  font-family: raleway;
+  left: 32.6em;
+  top: 0.9em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.res5{
+  position: relative;
+  font-family: raleway;
+  left: 25.7em;
+  top: 2em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.mark5{
+  position: relative;
+  font-family: raleway;
+  left: 32.6em;
+  top: -0.1em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.res6{
+  position: relative;
+  font-family: raleway;
+  left: 25.7em;
+  top: 1em;
+  font-size: 23px;
+  width: 4em;
+}
+
+.mark6{
+  position: relative;
+  font-family: raleway;
+  left: 32.6em;
+  top: -1.2em;
+  font-size: 23px;
+  width: 4em;
+}
+
+/* Results Navigation */
+
+#return7{
+  position: relative;
+  top: 3em;
+  left: 3em;
+  height: 1em;
+  width: 1em;
+}
+
+#finish{
+  position: relative;
+  top: 2em;
+  left: 37em;
+  height: 1em;
+  width: 1em;
+}
+
+
+/* Disabling buttons until chosen the correct answer */
+
+.next-btn[disabled],
+.prev-btn[disabled] {
+  opacity: 0.5;
+}
+
+.next-btn2[disabled]{
+  opacity: 0.5;
+}
+
+.next-btn3[disabled]{
+  opacity: 0.5;
+}
+
+.next-btn4[disabled]{
+  opacity: 0.5;
+}
+
+.next-btn5[disabled]{
+  opacity: 0.5;
+}
+
+.next-btn6[disabled]{
+  opacity: 0.5;
+}
+
+
+/* Correct and Incorrect answers Border */
+
+/* CORRECT */
+
+#a2q1.correct,
+#a3q2.correct,
+#a1q3.correct,
+#a2q4.correct,
+#a2q5.correct {
+  border: 1px solid #54B77E;
+}
+
+
+/* INCORRECT */
+
+/* Quiz 1 */
+
+.incorrectq1.incorrect {
+  border: 1px solid #F6454F;
+}
+
+/* Quiz 2 */
+
+.incorrectq2.incorrect {
+  border: 1px solid #F6454F;
+}
+
+/* Quiz 3 */
+
+.incorrectq3.incorrect {
+   border: 1px solid #F6454F;
+}
+
+/* Quiz 4 */
+
+.incorrectq4.incorrect {
+   border: 1px solid #F6454F;
+}
+
+/* Quiz 5 */
+
+.incorrectq5.incorrect {
+   border: 1px solid #F6454F;
+}
+
+
+

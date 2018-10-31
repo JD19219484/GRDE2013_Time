@@ -1,0 +1,172 @@
+body{
+  background: #C6F6FF;
+}
+
+h1{
+  position: absolute;
+  left: 3em;
+  top: 1em;
+  font-family: raleway;
+  font-weight: 2;
+  font-size: 40px;
+}
+
+#Intro{
+  position: absolute;
+  left: 52em;
+  top: 5.1em;
+  font-family: raleway;
+}
+
+#How{
+  position: absolute;
+  left: 65em;
+  top: 5.1em;
+  font-family: raleway;
+}
+
+#Quiz{
+  position: absolute;
+  left: 80em;
+  top: 5.1em;
+  font-family: raleway;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.minutes-container, .hours-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* Live clock property */
+
+/*.clock {
+  position: relative;
+}
+
+.hours {
+  background: #000;
+  height: 10em;
+  left: 48.75%;
+  position: absolute;
+  top: 20em;
+  transform-origin: 50% 100%;
+  width: 1em;
+}
+
+.minutes {
+  background: #000;
+  height: 17em;
+  left: 48.75%;
+  position: absolute;
+  top: 13em;
+  transform-origin: 50% 100%;
+  width: 1em;
+}
+
+.seconds {
+  background: #FF0000;
+  height: 20em;
+  left: 48.75%;
+  position: absolute;
+  top: 10em;
+  transform-origin: 50% 80%;
+  width: 1em;
+  z-index: 8;
+}*/
+
+.clock {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px; 
+  position: relative;
+  top: 14em;
+  left: 30em;
+}
+
+.clock.simple:after {
+  
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 5%;
+  height: 5%;
+  z-index: 10;
+}
+
+.minutes-container, .hours-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hours {
+  background: #000;
+  height: 29%;
+  left: 48%;
+  position: absolute;
+  top: 22%;
+  transform-origin: 50% 100%;
+  width: 2%;
+}
+
+.minutes {
+  background: #000;
+  height: 40%;
+  left: 49%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  width: 2%;
+}
+
+.seconds {
+  background: red;
+  height: 13em;
+  left: 48%;
+  position: absolute;
+  top: 6%;
+  transform-origin: 60% 90%;
+  width: 1%;
+  z-index: 8;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}*/
+
+.hours-container {
+  animation: rotate 43200s infinite linear;
+}
+.minutes-container {
+  animation: rotate 3600s infinite linear;
+}
+.seconds-container {
+  animation: rotate 60s infinite linear;
+}
+
+
+.dot{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 46%;
+  bottom: 46%;
+}
